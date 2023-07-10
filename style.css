@@ -94,6 +94,10 @@ img {
   height: 230px;
 }
 
+#radio-broadcast {
+  width: 50%;
+}
+
 footer {
   background-color: black;
   color: white;
