@@ -81,12 +81,17 @@ img {
 
 #tv-broadcast {
   height: 300px;
-  width: 90%;
+  width: 100%;
 }
 
 #online-news {
-  width: 90%;
+  width: 100%;
   height: 240px;
+}
+
+#Photo_Journalism {
+  width: 85%;
+  height: 230px;
 }
 
 footer {
