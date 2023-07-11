@@ -57,56 +57,23 @@ span {
   text-align: center;
   background-color: orange;
 }
-
 .media-gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  justify-content: space-around;
   background-color: orange;
-  height: auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
-.flexbox-item {
-  /* width: 280px; */
-  /* padding-right: 15px; */
+.media-gallery div {
+  width: 25%;
+  margin: 10px;
+  padding: 10px;
 }
 
 img {
   width: 100%;
-  padding-top: 50px;
-  padding: 10px;
-}
-
-#tv-broadcast {
-  height: 300px;
-  width: 100%;
-}
-
-#online-news {
-  width: 100%;
-  height: 240px;
-}
-
-#Photo_Journalism {
-  width: 100%;
-  height: 180px;
-}
-
-#radio-broadcast {
-  width: 100%;
-  height: 250px;
-}
-
-#magazine {
-  width: 100%;
-  height: 250px;
-}
-
-.flexbox-item:nth-child(n + 1) {
-  width: 20%;
+  border: 1px solid black;
 }
 
 footer {
